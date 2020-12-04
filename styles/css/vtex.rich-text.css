@@ -531,12 +531,14 @@
 
 
 @media screen and (max-width: 1024px) {
+  
   .paragraph--salesDisccount{
     font-size: 12px;
     padding: 0 30px;
   }
   .container--salesDisccount{
     margin: 0 auto 0;
+    min-height: 65px;
   }
   .wrapper--textSaleMini {
     font-size: 14px;
