@@ -686,7 +686,7 @@
     "props": {
       "specificationGroupName": "allSpecifications",
       "displayValue": "SPECIFICATION_NAME",
-      "visibleWhen":"Pre-orden",
+      "visibleWhen":"Pre-order",
       "blockClass":"contentbadges"
     }
   }

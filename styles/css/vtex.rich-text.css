@@ -520,8 +520,8 @@
 }
 
 .container--salesDisccount{
-  margin: 60px auto;
-  max-width: 1200px;
+  margin: 0 auto 60px;
+  max-width: 1600px;
   background: #e1d3c8;
 }
 

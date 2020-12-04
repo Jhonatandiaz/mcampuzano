@@ -102,8 +102,9 @@
   },
   "flex-layout.col#imageCustomPreOrden-search": {
     "children": [
-      "product-specification-badges",
-      "stack-layout#prodsum"
+      "stack-layout#prodsum",
+      "product-specification-badges"
+      
     ],
     "props": {
       "blockClass": "wrapperImagePreOrdenCustoms"

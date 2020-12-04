@@ -488,7 +488,7 @@
 .flexCol--wrapperContentFilters .flexColChild--wrapperContentFilters:first-child {
   position: sticky;
   background: #fff;
-  z-index: 4;
+  z-index: 6;
   top: 160px;
   margin-bottom: 10px;
 }
@@ -546,6 +546,10 @@
 
 .flexColChild--right-col {
   height: auto !important;
+}
+
+.flexColChild--right-col:last-child {
+  min-height: 300px;
 }
 
 /*.flexColChild--right-col :global(.vtex-product-price-1-x-sellingPrice--summary) :global(.vtex-product-price-1-x-currencyContainer--summary)::before{
@@ -1069,6 +1073,18 @@
   .flexColChild--image-percent-container :global(.vtex-store-components-3-x-discountContainer) {
     position: absolute;
   }
+
+  .flexColChild--image-percent-container:last-child {
+    position: relative;
+  }
+
+  .flexColChild--right-col:last-child {
+    min-height: unset;
+  }
+
+  .flexCol--image-percent-container :global(.vtex-product-specification-badges-0-x-groupContainer--contentbadges) {
+    left: 30px;
+  }
 }
 
 .flexRowContent--drawer-row-2 {
@@ -1272,20 +1288,18 @@
   padding-left: 5px;
 }
 
-.flexColChild--image-percent-container {
-  height: 0 !important;
-}
-
 .flexColChild--image-percent-container:first-child {
   position: absolute;
   right: 0;
 }
 
-.flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountContainer) {
+.flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountContainer),
+.flexColChild--image-percent-container:last-child :global(.vtex-store-components-3-x-discountContainer) {
   width: 100%;
 }
 
-.flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountInsideContainer) {
+.flexColChild--image-percent-container:first-child :global(.vtex-store-components-3-x-discountInsideContainer),
+.flexColChild--image-percent-container:last-child :global(.vtex-store-components-3-x-discountInsideContainer) {
   top: -10px;
   right: 7px;
 }
@@ -1341,20 +1355,22 @@
   top: 15px;
 }
 
-.flexColChild--wrapperImagePreOrdenCustoms :global(.vtex-product-specification-badges-0-x-badgeText--pre-orden) {
+.flexColChild--wrapperImagePreOrdenCustoms :global(.vtex-product-specification-badges-0-x-badgeText--pre-order) {
   margin: 0;
   width: max-content;
   padding: 10px 20px;
-  background: #f9f6f1;
+  background: #e1d3c8;
   font-weight: bold;
   border-radius: 50px;
+  color: #000;
 }
 
 .flexCol--image-percent-container :global(.vtex-product-specification-badges-0-x-badgeText--contentbadges) {
+  color: #000;
   margin: 15px 10px;
   width: max-content;
   padding: 10px 20px;
-  background: #f9f6f1;
+  background: #e1d3c8;
   font-weight: bold;
   border-radius: 50px;
 }
