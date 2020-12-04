@@ -488,7 +488,7 @@
 .flexCol--wrapperContentFilters .flexColChild--wrapperContentFilters:first-child {
   position: sticky;
   background: #fff;
-  z-index: 6;
+  z-index: 9;
   top: 160px;
   margin-bottom: 10px;
 }
@@ -1075,7 +1075,7 @@
   }
 
   .flexColChild--image-percent-container:last-child {
-    position: relative;
+    position: relative !important;
   }
 
   .flexColChild--right-col:last-child {
@@ -1302,6 +1302,10 @@
 .flexColChild--image-percent-container:last-child :global(.vtex-store-components-3-x-discountInsideContainer) {
   top: -10px;
   right: 7px;
+}
+
+.flexColChild--image-percent-container:last-child{
+  position: absolute;
 }
 
 .flexRowContent--menu-mobile-new .stretchChildrenWidth {

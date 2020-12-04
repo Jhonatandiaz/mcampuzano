@@ -80,7 +80,7 @@
 .triggerContainer--quickview {
   position: absolute;
   top: 20px;
-  z-index: 2;
+  z-index: 7;
 }
 
 .triggerContainer--quickview::after {

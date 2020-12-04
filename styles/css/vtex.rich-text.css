@@ -520,7 +520,7 @@
 }
 
 .container--salesDisccount{
-  margin: 0 auto 60px;
+  margin: -4px auto 60px;
   max-width: 1600px;
   background: #e1d3c8;
 }
@@ -531,7 +531,7 @@
     padding: 0 30px;
   }
   .container--salesDisccount{
-    margin: -8px auto;
+    margin: 0 auto 0;
   }
   .wrapper--textSaleMini {
     font-size: 14px;

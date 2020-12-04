@@ -79,6 +79,5 @@
 
   .headerStickyRow--mobile-category-search {
     top: 73px !important;
-    z-index: 3;
   }
 }
